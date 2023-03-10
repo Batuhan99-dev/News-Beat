@@ -8,12 +8,16 @@
 import UIKit
 
 class NewsBeatController: UIViewController {
-
+    
+    let fetchData = ApıCall()
+    @IBOutlet weak var tableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        fetchData.fetchData()
     }
-
-
+  
+    
 }
+
 
