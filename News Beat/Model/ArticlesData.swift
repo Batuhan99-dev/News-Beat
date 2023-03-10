@@ -9,5 +9,5 @@ import Foundation
 struct ArticlesData: Codable {
     let author: String?
     let title: String
-    let image: String?
+    let urlToİmage: String?
 }

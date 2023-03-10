@@ -18,7 +18,7 @@ class NewsTableViewCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        newsContent.textAlignment = .justified
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -26,5 +26,9 @@ class NewsTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-
+    override func prepareForReuse() {
+        super.prepareForReuse()
+        newsImage.image = nil
+    }
 }
+
