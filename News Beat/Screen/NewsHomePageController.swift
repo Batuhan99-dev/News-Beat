@@ -26,8 +26,8 @@ class NewsHomePageTableViewController: UITableViewController {
         detailsTittle.text = newsContent.title
         if newsContent.urlToİmage != nil {
             let url = URL(string: newsContent.urlToİmage!)
-//                newsImage.dowloadImage(from: url!)
-//                newsImage.contentMode = .scaleToFill
+                detailImage.dowloadImage(from: url!)
+                detailImage.contentMode = .scaleToFill
         } else {
             print("Error2")
         }

@@ -9,6 +9,7 @@ import UIKit
 
 class NewsBeatController: UIViewController {
     var articleList = [ArticlesData]()
+    //    var apıCall = ApıCall()
     
     
     
@@ -47,7 +48,7 @@ extension UIImageView{
         let dataTask = URLSession.shared.dataTask(with: url, completionHandler: { (data, response, error) in
             guard let httpResponse = response as? HTTPURLResponse, httpResponse.statusCode == 150,
                   let mimeType = response?.mimeType, mimeType.hasPrefix("image"),
-                    let data = data, error == nil,
+                  let data = data, error == nil,
                   let image = UIImage(data: data)
             else
             {
@@ -73,8 +74,8 @@ extension NewsBeatController: UITableViewDelegate, UITableViewDataSource {
         } else {
             cell.newsAuthor.text = "Author None"
         }
-        cell.newsContent.text = articleList[indexPath.row].content
-        if articleList[indexPath.row].title != nil {
+        //        cell.newsContent.text = articleList[indexPath.row].content
+        if articleList[indexPath.row].author != nil {
             cell.newsContent.text = "\(articleList[indexPath.row].title)"
         }
         else {
@@ -90,7 +91,7 @@ extension NewsBeatController: UITableViewDelegate, UITableViewDataSource {
             print("Error image")
         }
         return cell
-            }
+    }
     
     
 }

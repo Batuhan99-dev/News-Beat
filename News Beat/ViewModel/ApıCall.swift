@@ -5,8 +5,8 @@ import Foundation
 //final class ApıCall {
 //    let newsBeatController = NewsBeatController()
 //    var articleList = [ArticlesData]()
-//    
-//    public func fetchRequest() {
+//
+//     func fetchRequest() {
 //        let url = URL(string: "https://newsapi.org/v2/top-headlines?country=tr&apiKey=0a666dc01ad44a7bba8f0c5358c79c73")
 //        let taskData = URLSession.shared.dataTask(with: url!, completionHandler: { (data, response, error) in
 //            guard let data = data, error == nil else {
@@ -26,6 +26,6 @@ import Foundation
 //        })
 //        taskData.resume()
 //    }
-//    
+//
 //
 //}
