@@ -16,9 +16,11 @@ class NewsTableViewCell: UITableViewCell {
     
     @IBOutlet weak var newsAuthor: UILabel!
     
+   
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        newsContent.textAlignment = .justified
+       
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -28,7 +30,7 @@ class NewsTableViewCell: UITableViewCell {
     }
     override func prepareForReuse() {
         super.prepareForReuse()
-        newsImage.image = nil
+        
     }
 }
 

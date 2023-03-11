@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C16AD0E29BB9615003C01E3 /* NewsHomePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C16AD0D29BB9615003C01E3 /* NewsHomePageController.swift */; };
 		7C394E5429B921E40042540B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C394E5329B921E40042540B /* AppDelegate.swift */; };
 		7C394E5629B921E40042540B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C394E5529B921E40042540B /* SceneDelegate.swift */; };
 		7C394E5829B921E40042540B /* NewsBeatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C394E5729B921E40042540B /* NewsBeatController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C16AD0D29BB9615003C01E3 /* NewsHomePageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsHomePageController.swift; sourceTree = "<group>"; };
 		7C394E5029B921E40042540B /* News Beat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "News Beat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C394E5329B921E40042540B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C394E5529B921E40042540B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				7C394E5729B921E40042540B /* NewsBeatController.swift */,
 				7C92AC4C29BB498E00E18CAD /* NewsTableViewCell.swift */,
+				7C16AD0D29BB9615003C01E3 /* NewsHomePageController.swift */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 			files = (
 				7C92AC5329BB525D00E18CAD /* ApıCall.swift in Sources */,
 				7C394E5829B921E40042540B /* NewsBeatController.swift in Sources */,
+				7C16AD0E29BB9615003C01E3 /* NewsHomePageController.swift in Sources */,
 				7C394E5429B921E40042540B /* AppDelegate.swift in Sources */,
 				7C92AC5129BB4E9800E18CAD /* NewsData.swift in Sources */,
 				7C92AC4F29BB4DD800E18CAD /* ArticlesData.swift in Sources */,
